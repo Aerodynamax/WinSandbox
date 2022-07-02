@@ -10,4 +10,4 @@ curl -L https://download.visualstudio.microsoft.com/download/pr/df4372ca-82c8-4b
 %TEMP%\dotnet-runtime.exe /install /quiet /norestart
 start cmd /c "%USERPROFILE%\Desktop\PolarProxy\PolarProxy.exe --pcapoverip 57012 -x ./proxyroot.cer --socks 1080 --httpconnect 8080 --allownontls -p 443,80 --insecure"
 powershell "dir -Path $home\Desktop -filter *.cer | Import-Certificate -CertStoreLocation cert:\localmachine\root"
-"%USERPROFILE%\Desktop\Proxifier PE\Proxifier.exe" %USERPROFILE%\Desktop\proxyprofile.ppx
+start cmd /c "%USERPROFILE%\Desktop\"Proxifier PE"\Proxifier.exe %USERPROFILE%\Desktop\proxyprofile.ppx" :0 -clipboard -multiwindow
