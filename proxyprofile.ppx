@@ -23,12 +23,9 @@
 		</ProxificationPortableEngine>
 	</Options>
 	<ProxyList>
-		<Proxy id="100" type="SOCKS4">
-			<Authentication enabled="false">
-				<Username />
-			</Authentication>
+		<Proxy id="100" type="HTTPS">
 			<Options>52</Options>
-			<Port>1080</Port>
+			<Port>8080</Port>
 			<Address>localhost</Address>
 		</Proxy>
 	</ProxyList>
