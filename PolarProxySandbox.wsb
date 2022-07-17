@@ -1,5 +1,5 @@
 <Configuration>
   <LogonCommand>
-    <Command>cmd.exe /C "curl -L https://github.com/Aerodynamax/WinSandbox/archive/master.zip -o %TEMP%\data.zip &#038;&#038; tar -C %TEMP% -xf %TEMP%\data.zip &#038;&#038; move %TEMP%\WinSandbox-main\proxyprofile.ppx %USERPROFILE%\Desktop\proxyprofile.ppx &#038;&#038; start %TEMP%\WinSandbox-main\cmds_mitmproxy.bat"</Command>
+    <Command>cmd.exe /C "curl -L https://github.com/Aerodynamax/WinSandbox/archive/master.zip -o %TEMP%\data.zip &#038;&#038; tar -C %TEMP% -xf %TEMP%\data.zip &#038;&#038; move %TEMP%\WinSandbox-main\proxyprofile.ppx %USERPROFILE%\Desktop\proxyprofile.ppx &#038;&#038; move %TEMP%\WinSandbox-main\addon.py %USERPROFILE%\Desktop\addon.py &#038;&#038; start /min %TEMP%\WinSandbox-main\cmds_mitmproxy.bat"</Command>
   </LogonCommand>
 </Configuration>
